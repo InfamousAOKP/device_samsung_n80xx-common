@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/n80xx-common/ueventd.smdk4x12.rc:root/ueventd.smdk4x12.rc \
     device/samsung/n80xx-common/ueventd.smdk4x12.rc:recovery/root/ueventd.smdk4x12.rc
 
+# Audio
+PRODUCT_COPY_FILES += \
+    device/samsung/n80xx-common/configs/audio_policy.conf:system/etc/audio_policy.conf
+
 # Packages
 PRODUCT_PACKAGES += \
     libsecril-client \
